@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 FanFuel
 
-## Getting Started
+### Fuel Your Passion, Fund Your Future
 
-First, run the development server:
+FanFuel is a modern, high-performance crowdfunding platform designed for creators. It enables artists, developers, and influencers to receive direct support from their fans through a sleek, transparent, and secure interface.
+
+---
+
+## ✨ Features
+
+* 💎 **Premium Glassmorphism UI**
+  Futuristic interface built with Tailwind CSS featuring radial gradients, backdrop blur effects, and interactive dark-themed components.
+
+* 🔐 **Secure Authentication**
+  Seamless login powered by NextAuth.js with GitHub OAuth integration.
+
+* 💳 **Integrated Payments**
+  Secure and fast INR transactions powered by Razorpay.
+
+* 📊 **Dynamic Dashboard**
+  Creator-focused control panel to manage profiles, update visuals, and track funding activity.
+
+* 🏆 **Public Supporter Leaderboard**
+  Real-time display of top supporters along with their messages.
+
+* ⚡ **Real-time Session Updates**
+  Optimized session handling ensures instant synchronization of user data across the application.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category       | Technology              |
+| -------------- | ----------------------- |
+| Framework      | Next.js 16 (App Router) |
+| Language       | JavaScript / React      |
+| Database       | MongoDB (Mongoose)      |
+| Authentication | NextAuth.js             |
+| Payments       | Razorpay API            |
+| Styling        | Tailwind CSS            |
+| Notifications  | React Toastify          |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/FanFuel.git
+cd FanFuel
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env.local` file in the root directory and add the following:
+
+```env
+# NextAuth
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your_nextauth_secret
+
+# GitHub OAuth
+GITHUB_ID=your_github_client_id
+GITHUB_SECRET=your_github_client_secret
+
+# Database
+MONGODB_URI=your_mongodb_connection_string
+
+# App URL
+NEXT_PUBLIC_URL=http://localhost:3000
+```
+
+### 4. Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Screenshots
+* Landing Page
+<img width="1890" height="924" alt="image" src="https://github.com/user-attachments/assets/0fd94056-bbbb-4ffc-b9c0-cb2396e21e7a" />
 
-## Learn More
+* Dashboard
+<img width="1890" height="919" alt="image" src="https://github.com/user-attachments/assets/2ba002c6-fda1-4776-a1f4-5b9d371a8110" />
 
-To learn more about Next.js, take a look at the following resources:
+* Payment Page
+<img width="1894" height="916" alt="image" src="https://github.com/user-attachments/assets/004c25a7-adde-46de-8442-b4d77977672f" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ❤️ Acknowledgements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Built with passion and dedication by **Sourabh**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you like this project, consider giving it a ⭐ on GitHub!
